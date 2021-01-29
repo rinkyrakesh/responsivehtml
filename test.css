@@ -1,60 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   
     box-sizing: border-box;
-
-}
-.clearfix:after{
-    content:"";
-    display:table;
-    clear:both;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-body
-{
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
-h1,h2
-{
-    color:rgba(206, 49, 10, 0.548);
+
+h1,
+h2 {
+    color: rgba(206, 49, 10, 0.548);
     font-size: 40px;
     margin-bottom: 30px;
-   
-}
-p
-{
-    color:indigo;
-    
 }
 
-.maintext{
+p {
+    color: indigo;
+}
+
+.maintext {
     text-align: left;
     margin-bottom: 50px;
-
 }
-.authortext{
+
+.authortext {
+    padding-top: 20px;
     font-size: 30px;
-    color : red;
+    color: red;
+    border-top: 1px solid rgb(32, 9, 9);
 }
-.container{
-    width:1140px;
-    margin: 20px auto 0 auto;
 
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
 }
-.myblogpost{
-    background-color: #0000ff;
-    width :75%;
-    float:left;
+
+.myblogpost {
+    width: 75%;
+    float: left;
     padding-right: 30px;
 }
-.otherposts{
-    background-color: #00ff00;
+
+.otherposts {
     width: 25%;
-    float:left;
+    float: left;
 }
-.authorpost{
-    background-color: #ffff00;
+
+.authorpost img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.firstdiv {
+    margin-bottom: 40px;
+}
+
+.myblogpost img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
